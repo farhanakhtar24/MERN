@@ -10,11 +10,6 @@ const app = express();
 // middleware
 app.use(express.json()); // to access the req.body in post requests
 
-app.use((req, res, next) => {
-	console.log(req.path, req.method);
-	next();
-});
-
 // Routes
 app.use("/api/workouts", workoutRoute);
 
