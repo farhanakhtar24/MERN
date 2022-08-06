@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
 
-// schmea defines the structure of a doscumaent in the db
+// schmea defines the structure of a document in the db
 const workoutsSchema = new Schema(
 	{
 		title: {
